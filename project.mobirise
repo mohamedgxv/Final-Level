@@ -221,7 +221,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "وصلتك للخدمات اللوجستية",
+    "name": "فاينل لفل للخدمات الهندسيه",
     "versionFirst": "5.4.1",
     "siteFonts": [
       {
@@ -264,8 +264,8 @@
       }
     ],
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/untitled-1-128x128.png",
-    "mbrsiteDomain": "qoulx2l1au",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-u-128x128.png",
+    "mbrsiteDomain": "qh8ezxe0p2",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -276,14 +276,17 @@
     "versionPublish": "5.8.4",
     "screenshot": "screenshot.png",
     "global_footer_custom": "<script  src=\"https://cdn.ratina.co/js/helper-v11.js?c=b&l=en\" ></script>",
-    "global_header_custom": "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>"
+    "global_header_custom": "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
+    "chatbutton": {},
+    "usedWebp": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "وصلتك للخدمات اللوجستية",
-        "meta_descr": "لخدمات النقل السريع وتوصيل البضائع وتوصيل الأطعمة والحلويات واستلام البضائع من التجار وتسليمها إلى العملاء",
+        "title": "فاينل لفل للخدمات الهندسيه",
+        "meta_descr": "فاينل لفل للخدمات الهندسيه",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -755,7 +758,7 @@
           },
           "_name": "header2",
           "_sourceTheme": "studiom4",
-          "_customHTML": "<section class=\"header2 studiom4_header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"14\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/bg-512x384.png\" parallax selected>\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#767676\">\n\t\t\t<input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container align-center\">\n\t\t<div class=\"row justify-content-md-center\">\n\t\t\t<div class=\"mbr-white col-md-10 col-lg-7\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">نعمل على مدار ســـ24ـــــاعة</h3>\n\t\t\t\t<h1 class=\"mbr-section-title mbr-semibold mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">فاينل لفل للخدمات اللوجستية</h1>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">إحدى الشركات الهندسيه الرائدة في السودان ذات خبرة تمتد لأكثر من خمسة عشر عاما، تسعى الى تقديم خدمات هندسية واستشارية متميزة وذات جودة<br></p>\n\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" style><a class=\"btn btn-black-outline\" href=\"https://wa.me/249110016466\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-chat-bubble1 mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;محادثة</a> <a class=\"btn btn-danger\" href=\"tel:+249110016466\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-phone-2 mbr-iconfont mbr-iconfont-btn\"></span><font face=\"icon54\"><br></font>إتصال</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n\t\t<a href=\"#next\">\n\t\t\t<i class=\"mbri-down mbr-iconfont\"></i>\n\t\t</a>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"header2 studiom4_header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"14\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/bg-512x384.png\" parallax selected>\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#767676\">\n\t\t\t<input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container align-center\">\n\t\t<div class=\"row justify-content-md-center\">\n\t\t\t<div class=\"mbr-white col-md-10 col-lg-7\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">نعمل على مدار ســـ24ـــــاعة</h3>\n\t\t\t\t<h1 class=\"mbr-section-title mbr-semibold mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">فاينل لفل للخدمات الهندسيه</h1>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">إحدى الشركات الهندسيه الرائدة في السودان ذات خبرة تمتد لأكثر من خمسة عشر عاما، تسعى الى تقديم خدمات هندسية واستشارية متميزة وذات جودة<br></p>\n\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" style><a class=\"btn btn-black-outline\" href=\"https://wa.me/249110016466\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-chat-bubble1 mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;محادثة</a> <a class=\"btn btn-danger\" href=\"tel:+249110016466\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-phone-2 mbr-iconfont mbr-iconfont-btn\"></span><font face=\"icon54\"><br></font>إتصال</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n\t\t<a href=\"#next\">\n\t\t\t<i class=\"mbri-down mbr-iconfont\"></i>\n\t\t</a>\n\t</div>\n</section>",
           "_cid": "sT4A9Km7MK",
           "_anchor": "header2-1",
           "_PHPplaceholders": [],
@@ -2714,7 +2717,8 @@
     "tracking.html": {
       "settings": {
         "title": "تتبع الشحنة",
-        "order": 1
+        "order": 1,
+        "meta_descr": ""
       },
       "components": [
         {
